@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Coroutines.Runtime.Core
 {
-    public class DefaultYieldHandlersTest : YieldHandlers
+    public class DefaultYieldHandlers : YieldHandlers
     {
         public override Dictionary<Type, Func<object, ICoroutineYield>> GetYieldHandlers()
         {
